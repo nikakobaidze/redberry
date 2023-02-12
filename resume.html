@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="resume.css">
+</head>
+<body>
+    <div class="inputall">
+        <div class="navbar">
+           <button class="arrowbtn" onclick="refresh()"><img src="Vectorarrow.png" alt="" srcset="" class="arrow"></button>
+        <p class="personalinfo">პირადი ინფო</p>
+        <p class="pagecount">1/3</p> 
+        </div>
+        <hr size="1"  color="#1A1A1A" class="line">
+        <div class="atrsdiv">
+        <p class="nameinput_atributes">სახელი</p>
+        <p class="nameinput_atributes surnameatribute">გვარი</p> 
+        </div>
+        
+        <input type="text" name="nameinput" id="nameinput" class="nameinput" oninput="myFunction()" minlength="2" required>
+        <span class="invalidicon"><img src="Vectorinvalidicon.png" alt="" srcset=""></span>
+        <span class="successicon nameicon" id="nameicon"><img src="Vectorsuccessicon.png" alt="" srcset=""></span>
+        
+        <input type="text" name="" id="surnameinput" class="surnameinput" oninput="myFunction()"  minlength="2">
+        <span><img src="Vectorinvalidicon.png" alt="" srcset=""></span>
+        <span class="successicon surnameicon" id="surnameicon"><img src="Vectorsuccessicon.png" alt="" srcset=""></span>
+        <div class="validationnames">
+            <p class="nameinputvalidate_atributes">მინიმუმ 2 ასო ქართული</p>
+            <p class="nameinputvalidate_atributes surnamevalidate ">მინიმუმ 2 ასო ქართული</p> 
+            </div>
+            <div class="photoupload">
+              <p>პირადი ფოტოს ატვირთვა</p>
+            <form class="photosubmit" action="">
+                
+                <input oninput="myFunction()" type="file"
+                id="imageinput" name="imageinput"
+                accept="image/png, image/jpeg"> 
+                <!-- <button type="button" >ატვირთვა</button> -->
+              </form>  
+              <span><img src="Vectorinvalidicon.png" alt="" srcset=""></span>
+              <span class="successicon imgicon" id="imgicon"><img src="Vectorsuccessicon.png" alt="" srcset=""></span>
+            </div>
+            <div class="aboutme">
+                <p class="aboutmeatr">ჩემს შესახებ (არასავალდებულო)</p>
+                <input class="aboutmetxt" type="text" oninput="myFunction()" id="aboutmeinput">
+
+            </div>
+            <div class="mail">
+                <p class="mailatr">ელ.ფოსტა</p>
+                <input class="mailinput" type="email" name="" id="mailinput" oninput="myFunction()">
+                <span><img src="Vectorinvalidicon.png" alt="" srcset=""></span>
+                <span class="successicon mailicon" id="mailicon"><img src="Vectorsuccessicon.png" alt="" srcset=""></span>
+                <p>უნდა მთავრდებოდეს @redberry.ge-ით</p>
+
+            </div>
+
+            <div class="number">
+                <p class="numberatr">მობილურის ნომერი</p>
+                <input class="numberinput" type="text" name="" id="numberinput" oninput="myFunction()">
+                <span><img src="Vectorinvalidicon.png" alt="" srcset=""></span>
+                <span class="successicon numbericon" id="numbericon"><img src="Vectorsuccessicon.png" alt="" srcset=""></span>
+                <p class="numbervalid">უნდა აკმაყოფილებდეს მობილური ნომრის ფორმატს</p>
+
+            </div>
+            <div class="btndiv">
+             <button type="button" class="nextpagebtn" id="nextpagebtn" onclick="window.location.replace('experience.html')" disabled> შემდეგი</button>   
+            </div>
+            
+            
+            
+        
+    </div>
+    <div class="resume">
+        <div class="resumediv">
+                <div class="namediv">
+                <p id="nameresume"></p>
+                <p id="surnameresume" class="surnameresume"></p> 
+            </div>
+            <div class="maildiv">
+                <p class="mailicon"> <img src="Vectormailicon.png" alt="" srcset=""></p>
+                <p class="mailresume" id="mailresume"></p>
+            </div>
+            <div class="phonediv">
+                <p class="phoneicon"><img src="Vectorphoneicon.png" alt="" srcset=""></p>
+                <p class="phoneresume" id="phoneresume"></p>
+            </div>
+            <div class="aboutmeresume">
+            <p class="aboutme_resumeatr">ჩემს შესახებ</p> 
+            <p class="aboutme_resume" id="aboutme_resume"></p>
+
+            <img class="starlogo"  src="LOGO-12 1starlogo.png" alt="">
+
+           </div>
+        </div>
+        
+        <div class="photodiv">
+            <img src="C:\fakepath\Rectangle 9photo.png" alt="" srcset="" id="imageresume">
+        </div>
+    </div>
+        
+    
+  <script src="resume.js"></script>  
+</body>
+</html>

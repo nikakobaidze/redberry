@@ -1,0 +1,44 @@
+@font-face {
+    font-family:helveticanue ;
+    src: url(HelveticaNeue\ \(1\).ttc);
+}
+body{
+    
+    background: url(mainbackground.png);
+  background-repeat: no-repeat;
+  background-size:1920px 1080px
+}
+
+.line{
+ 
+  margin: 26px 70px;   
+}
+.logo{
+  margin-top: 25px;
+  margin-left: 70px;      
+  background-repeat: no-repeat;
+  background-size:236px 38px;
+  position: relative;
+}
+button{
+    position: fixed;
+    
+    background-color: #1A1A1A;
+    font-family: helveticanue;
+    width: 464px;
+    height: 60px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-left: 728px;
+    margin-top: -240px;
+    border-radius: 8px;
+}
+.logocopyright{
+    
+    margin-top: 384px;
+    margin-left: 1076px;      
+    background-repeat: no-repeat;
+    background-size:299px 299px;
+}

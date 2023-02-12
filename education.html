@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="education.css">
+</head>
+<body>
+
+    <div class="inputall" id="inputall">
+        <div class="navbar">
+           <button class="arrowbtn" onclick="refresh()"><img src="Vectorarrow.png" alt="" srcset="" class="arrow"></button>
+        <p class="personalinfo">განათლება</p>
+        <p class="pagecount">3/3</p> 
+        </div>
+        <hr size="1"  color="#1A1A1A" class="line">
+        
+                <div class="experiencediv" id="experiencediv">
+
+                
+                    <div class="atrsdiv">
+                    <p class="nameinput_atributes">სასწავლებელი</p>
+                    
+                    
+                    </div>
+                    
+                    <input type="text" name="nameinput" id="nameinput" class="nameinput" oninput="myFunction()" minlength="2" required>
+                    <span><img src="Vectorinvalidicon.png" alt="" srcset=""></span>
+        <span class="successicon surnameicon" id="nameicon"><img src="Vectorsuccessicon.png" alt="" srcset=""></span>
+                    
+                    
+                    <div class="validationnames">
+                        <p class="nameinputvalidate_atributes">მინიმუმ 2 ასო სიმბოლო</p>
+                        
+                        </div>
+                        
+                            
+                            
+                                <div class="atrsdiv">
+                                    <p class="nameinput_atributes">ხარისხი</p>
+                                    <p class="nameinput_atributes surnameatribute">დამთავრების დრო</p> 
+                                    </div>
+                    <!-- <input type="date" name="jobstartinput" id="jobstartinput" class="jobstartinput" oninput="myFunction()" minlength="2" required> -->
+                    
+
+                    <select id="positionchoose" class="positionchoose" onclick="position()">
+                        <option value="1">საშაულო სკოლის დიპლომი</option>
+                        <option value="2" selected="selected">ზოგადსაგანმანათლებლო დიპლომი</option>
+                        <option value="3">ბაკალავრი</option>
+                        <option value="1">მაგისტრი</option>
+                        <option value="2" selected="selected">დოქტორი</option>
+                        <option value="3">ასოცირებული ხარისხი</option>
+                        <option value="1">სტუდენტი</option>
+                        <option value="2" selected="selected">კოლეჯი(ხარისხის გარეშე)</option>
+                        <option value="3">სხვა</option>
+                      </select>              
+
+
+
+
+                    
+                    <input type="date" name="" id="jobendinput" class="jobendinput" oninput="myFunction()"  minlength="2">
+                        <div class="aboutme">
+                            <!-- <p class="aboutmeatr">ჩემს შესახებ (არასავალდებულო)</p> -->
+                            <input class="aboutmetxt" type="text" oninput="myFunction()" id="aboutmeinput" placeholder="განათლების აღწერა">
+
+                        </div>
+                    
+                    
+                    <hr size="1"  color="##C1C1C1"  class="bottomline" id="bottomline"> 
+                </div>
+                
+        
+            <button type="button" onclick="addexperience()" class="experiencebtn">სხვა სასწავლების დამატება</button>
+
+            <div class="btndiv" id="btndiv">
+                <button type="button" class="prevpagebtn" onclick="window.location.replace('experience.html')"> უკან</button>   
+               
+                        
+             <button type="button" class="nextpagebtn" id="nextpagebtn"  onclick="window.location.replace('final.html')" disabled> შემდეგი</button>   
+            </div>
+            
+            
+        
+    </div>
+    <div class="resume">
+        
+        <div class="resumediv">
+            <div class="inputdivs">
+                    <div class="namediv">
+                    <p id="nameresume"></p>
+                    <p id="surnameresume" class="surnameresume"></p> 
+                </div>
+                <div class="maildiv">
+                    <p class="mailicon"> <img src="Vectormailicon.png" alt="" srcset=""></p>
+                    <p class="mailresume" id="mailresume"></p>
+                </div>
+                <div class="phonediv">
+                    <p class="phoneicon"><img src="Vectorphoneicon.png" alt="" srcset=""></p>
+                    <p class="phoneresume" id="phoneresume"></p>
+                </div>
+                <div class="aboutmeresume">
+                <p class="aboutme_resumeatr">ჩემს შესახებ</p> 
+                <p class="aboutme_resume" id="aboutme_resume"></p>
+
+                <img class="starlogo"  src="LOGO-12 1starlogo.png" alt="">
+
+            </div>
+            </div>
+            
+                
+
+            <div class="photodiv">
+                <img src="Rectangle 9photo.png" alt="" srcset="" id="imageresume">
+            </div>
+        </div>
+        
+        
+        
+        <div class="linediv">
+          <hr size="1"  color="##C1C1C1" class="resumeline" >   
+        </div>
+        <div class="experiencediv">
+            <p class="experienceoutput" id="experienceoutput">გამოცდილება</p>
+        
+           <!-- <p class="jobtitle" id="jobtitle">nugxara</p> 
+           <p class="position" id="position">jumbera</p> -->
+           <div class="div">
+            <span class="jobtitle" id="jobtitle"></span> <span class="position" id="position"></span>
+           </div>
+           
+           <span class="jobstart" id="jobstart"></span> <span class="jobend" id="jobend"></span>
+        
+        <p class="aboutjob" id="aboutjob"></p>
+
+        
+        </div>
+        
+        
+        <div class="linediv">
+            <hr size="1"  color="##C1C1C1" class="resumeline" >   
+          </div>
+
+          <div class="educationdiv">
+            <p class="experienceoutput" id="educationoutput">განათლება</p>
+        
+           <!-- <p class="jobtitle" id="jobtitle">nugxara</p> 
+           <p class="position" id="position">jumbera</p> -->
+           <div class="div">
+            <span class="jobtitle" id="uniname"></span> <span class="position" id="studyposition"></span>
+           </div>
+           
+           <span class="jobstart" id="finish"></span> 
+        
+        <p class="aboutjob" id="aboutstudy"></p>
+
+        
+        </div>
+        
+        
+        
+        
+       
+    </div>
+   
+
+    <script src="education.js"></script>
+</body>
+</html>

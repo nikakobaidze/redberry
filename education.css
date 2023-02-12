@@ -1,0 +1,411 @@
+@font-face {
+    font-family:helveticanue ;
+    src: url(HelveticaNeue\ \(1\).ttc);
+}
+.inputall{
+    width: 1098px;
+    background-color: #D9D9D9;
+    height:auto;
+    }
+    .navbar{
+        display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+.arrow{
+    width: 9.21px;
+    height: 16px;
+}
+.arrowbtn{
+    background:none;
+    border: none;
+    margin-left: 48px;
+    margin-top: 45px;
+    height: 40px;
+    width: 40px;
+}
+.personalinfo{
+    font-family: 'helveticanue';
+    margin-right: 568px;
+    margin-top: 47px;
+    width: 179px;
+    height: 29px;
+    font-weight: 700;
+}
+.pagecount{
+    font-weight: 400;
+    font-family: 'helveticanue';
+    margin-top: 49px;
+    margin-right: 150px;
+
+}
+.line{
+    margin: 12px 150px;
+}
+.nameinput{
+    margin-left: 150px;
+    width: 798px;
+    height: 48px;
+
+/* background: #FFFFFF;
+border: 1px solid #98E37E; 
+box-sizing: border-box;*/
+border-radius: 4px;
+}
+.jobstartinput{
+    margin-left: 150px;
+
+width: 371px;
+height: 48px;
+
+/* background: #FFFFFF;
+border: 1px solid #98E37E; 
+box-sizing: border-box;*/
+border-radius: 4px;
+}
+.jobendinput{
+    margin-left: 56px;
+    width: 371px;
+    height: 48px;    
+    /* background: #FFFFFF;
+    border: 1px solid #98E37E; 
+    box-sizing: border-box;*/
+    border-radius: 4px;
+}
+.companyinput{
+    margin-left: 150px;
+    width: 798px;
+    height: 48px;
+    /* background: #FFFFFF;
+    border: 1px solid #98E37E; 
+    box-sizing: border-box;*/
+    border-radius: 4px;
+
+}
+.nameinput_atributes{
+    font-family: 'helveticanue';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+display: flex;
+align-items: center;
+color: #000000;
+}
+.atrsdiv{
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 150px;
+}
+.surnameatribute{
+margin-right: 211px;
+}
+.validationnames{
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 150px
+
+}
+.nameinputvalidate_atributes{
+    margin-top: 8px;
+    font-family: 'helveticaneue';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 21px;
+}
+.surnamevalidate{
+    margin-right: 200px;
+}
+.photoupload{
+    display: flex;
+    margin-top: 54px;
+    margin-left: 150px;
+}
+.photosubmit{
+    margin-top: 18px;
+    margin-left: 19px;
+    width: 107px;
+    height: 27px;
+    background: #0E80BF;
+    border-radius: 4px;
+
+}
+.aboutme{
+    margin-top: 54px;
+    margin-left: 150px;
+}
+.aboutmeatr{
+    width: 798px;
+height: 21px;
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+/* identical to box height, or 131% */
+
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+.aboutmetxt{
+    box-sizing: border-box;
+
+width: 798px;
+height: 103px;
+
+background: #FFFFFF;
+border: 1px solid #98E37E;
+border-radius: 4px;
+}
+.bottomline{
+    margin: 59px 150px;
+}
+.experiencebtn{
+ align-items: center;
+
+width: 289px;
+height: 48px;
+margin-left: 150px;
+background: #62A1EB;
+border-radius: 4px;
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+border: none;
+}
+
+
+body{
+    display: flex;
+    position: relative;
+}
+.resume{
+    padding-left: 80px;
+    width: 420px;
+    display: block;
+}
+.namediv{
+    display: flex;
+    color: #F93B1D;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 42px;
+}
+.surnameresume{
+    margin-left: 20px;
+}
+
+.maildiv{
+    display: flex;
+}
+.mailresume{
+    font-family: 'helveticaneue';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+
+margin-left: 12px;
+
+color: #1A1A1A;
+}
+.phonediv{
+    display: flex;
+    
+}
+.phoneresume{
+    font-family: 'helveticaneue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin-left: 12px;
+    color: #1A1A1A;
+}
+.aboutme_resumeatr{
+    margin-top: 34px;
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+color: #F93B1D;
+}
+.aboutme_resume{
+    width: 432px;
+ font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+text-transform: lowercase;
+color: #000000;
+}
+.aboutmeresume{
+    height: 70px;
+}
+.starlogo{
+    margin-top: 835px;
+}
+.photodiv img{
+    width: 246px;
+height: 246px;
+border-radius: 133px;
+}
+.nextpagebtn{
+width: 151px;
+height: 48px;
+right: 972px;
+bottom: 65px;
+background: #6B40E3;
+border-radius: 4px;
+border: none;
+position: absolute;
+margin-bottom: 65px;
+}
+.prevpagebtn{
+    width: 151px;
+height: 48px;
+right: 972px;
+bottom: 65px;
+background: #6B40E3;
+border-radius: 4px;
+border: none;
+position: absolute;
+margin-bottom: 65px;
+margin-right: 615px;
+
+}
+.btndiv{
+    display: flex;
+    margin-left: 802px;
+    margin-top: 160px;
+    margin-bottom: 65px;
+    
+}
+.resumeline{
+    position: relative;
+    width: 662px;
+    margin-top: auto;
+}
+.resumediv{
+    display: flex;
+}
+.linediv{
+    position: absolute;
+    
+}
+.experienceoutput{
+    font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+margin-top: 25px;
+color: #F93B1D;
+}
+.jobtitle{
+      
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    
+    
+    /* off black */
+    
+    color: #1A1A1A;
+}
+.jobstart{
+    font-family: 'Helvetica Neue';
+font-style: italic;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #919191;
+}
+.jobend{
+    font-family: 'Helvetica Neue';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #919191;
+    margin-left: 15px;
+    
+}
+.aboutjob{
+    font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* or 138% */
+
+text-transform: capitalize;
+
+color: #000000;
+}
+.position{
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    
+    
+    /* off black */
+    
+    color: #1A1A1A;
+}
+
+
+.positionchoose{
+    margin-left: 150px;
+    width: 371px;
+    height: 48px;
+    border-radius: 4px;
+}
+.nameinput:invalid{
+    border-color: #EF5050;
+}
+.validborder{
+    border: 1px solid #98E37E !important;
+    border-radius: 4px !important;
+}
+input:focus
+{
+    border: 1px solid #1670BE;
+    box-shadow: 0 0 3px #1670BE;
+    outline-offset: 0px;
+    outline: none;
+}
+.successicon{
+    margin-left: -65px;
+    margin-bottom: -8px;
+    display:none;
+}
+.dontshowinvalidicon{
+    display: none;
+    }
+    .showsuccesicon{
+        visibility: visible !important;
+    }
+
+
+
